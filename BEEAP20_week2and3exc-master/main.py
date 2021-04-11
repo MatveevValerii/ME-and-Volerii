@@ -25,7 +25,7 @@ class App:
 
         self.__GButton_450 = tk.Button(root)
         self.__GButton_450["bg"] = "#efefef"
-        ft = tkFont.Font(family='Times', size=10)
+        ft = tkFont.Font(family='Times', size=10) #to main finally
         self.__GButton_450["font"] = ft
         self.__GButton_450["fg"] = "#000000"
         self.__GButton_450["justify"] = "center"
